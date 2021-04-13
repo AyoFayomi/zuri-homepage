@@ -331,7 +331,7 @@ section.enroll
 
 .form-group label{
     color:black;
-    font-size:1rem;
+    font-size:0.8rem;
     line-height:32px;
    
 }
@@ -348,5 +348,31 @@ section.enroll
 }
 
 .form-group select{
-appearance:none;
+
+}
+
+button{
+    padding: 0.8rem 1.4rem;
+    height:40px;
+    width:120px;
+    background:#058BFF;
+    color:#fff;
+    outline:none;
+    border:none;
+    font: size 0.85rem;
+    font-weight:800;
+}
+
+@media (max-width:768px){
+    .container{
+        display:block;
+    }
+    .enroll-left,
+    .enroll-right {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    label{
+        font-size:0.8rem;
+    }
 }
