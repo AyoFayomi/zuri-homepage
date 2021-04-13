@@ -168,8 +168,15 @@ section .hero-right p {
     font-weight:900;
     margin-right:auto;
     border-radius:5px;
+    transition: .5s ease-in-out;
 }
-
+.link-button:hover{
+    padding: .8rem 1.3rem;
+    background-color: #f2f2f2;
+    border: .2em solid #058BFF;
+    color: #058BFF;
+    box-shadow: 1.5px 1.5px #666;
+}
 @media  (max-width:768px) {
     section{
         display:block;  
@@ -380,8 +387,7 @@ color:rgba(255, 255, 255, 0.515);
 
 /* Beginning of Form Sectiion */
 
-section.enroll
-{
+section.enroll{
     display:flex;
     flex-direction: column;
     align-items:flex-start;
@@ -410,11 +416,11 @@ section.enroll
 }
 
 .enroll-left h2{
-text-transform:uppercase;
-color:#121212;
-margin-bottom:4px;
-font-weight:bolder;
-font-size:1.8rem;
+    text-transform:uppercase;
+    color:#121212;
+    margin-bottom:4px;
+    font-weight:bolder;
+    font-size:1.8rem;
 }
 
 .enroll-left h5{
@@ -444,7 +450,7 @@ font-size:1.8rem;
 }
 
 .form-group{
-     margin-bottom:10px;
+    margin-bottom:10px;
 }
 
 .form-group label{
@@ -454,12 +460,9 @@ font-size:1.8rem;
    
 }
 .form-group input, .form-group select{
-    display:block;
     width:100%;
-    height:35px;
     background:#f1f1f1;
-    outline:none;
-    padding:1.2rem 0.9rem;
+    padding:1.2rem .9rem;
     border:none;
     border-radius:5px;
     margin-top:4px;
@@ -488,8 +491,22 @@ button{
     border-radius:5px;
     margin-left:30px;
     cursor:pointer;
+    transition: .7s ease-in-out;
 }
-
+button:hover{
+    padding: 1rem 2.1rem;
+    background-color: #f2f2f2;
+    border: .2em solid #058BFF;
+    color: #058BFF;
+    box-shadow: 1.5px 1.5px #666;
+}
+option::selection{
+    color: #058BFF;
+}
+option{
+    background-color: #999;
+    margin: 1rem;
+}
 @media  (max-width:768px){
     .container{
         display:block;
@@ -507,7 +524,7 @@ button{
 
     .enroll-left h2{
         font-size:1.15rem;
-         margin:30px 0 0 0;
+        margin:30px 0 0 0;
     }
 
     .mini-flex .form-group {

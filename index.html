@@ -182,11 +182,11 @@
                             </div>
                         <div class="form-group">
                                 <label for="gender"> Gender 
-                                <select id="gender" aria-required="true" disabled selected>
-                                        <option value="Select a gender">Select a gender</option>
-                                        <option value="" >Male </option>
-                                        <option value="">Female</option>
-                                        <option value="">Prefer not to say</option>
+                                <select required>
+                                    <option value="" disabled selected hidden>Select a gender</option>
+                                    <option value="M">Male </option>
+                                    <option value="F">Female</option>
+                                    <option value="Not saying">Prefer not to say</option>
                                 </select>
                             </label>
                         </div>
@@ -195,29 +195,29 @@
                         <div class="form-group">
                                 <label for="track"> Track 
                                 <select id="track" aria-required="true">
-                                        <option value="Select a track" disabled selected>Select a track</option>
-                                        <option value="" >Back End </option>
-                                        <option value="">Front End</option>
-                                        <option value="">Design</option>
-                                        <option value=""> Mobile </option>
+                                    <option value="Select a track" disabled selected hidden>Select a track</option>
+                                    <option value="B-E" >Back End </option>
+                                    <option value="F-E">Front End</option>
+                                    <option value="Design">Design</option>
+                                    <option value="Mobile"> Mobile </option>
                                 </select>
                             </label>
                         </div>
                         <div class="form-group">
                                 <label for="experience"> Experience Level
                                 <select id="experience" aria-required="true">
-                                        <option value="Select experience level" disabled selected>Select Experience Level</option>
-                                        <option value="" >Beginner </option>
-                                        <option value="">Junior/option>
-                                        <option value="">Intermediate</option>
-                                        <option value="">Senior</option>
+                                        <option value="Select experience level" disabled selected hidden>Select Experience Level</option>
+                                        <option value="Beginner" >Beginner </option>
+                                        <option value="Junior">Junior</option>
+                                        <option value="Intermediate">Intermediate</option>
+                                        <option value="Senior">Senior</option>
                                 </select>
                         </div>
                         
                         <div class="form-group">
                                 <label for="employment"> Employment Status
                                 <select id="employment" aria-required="true">
-                                        <option value="Select employment status" disabled selected>Select employment status</option>
+                                        <option value="Select employment status" disabled selected hidden>Select employment status</option>
                                         <option value="unemployed">Unemployed</option>
                                         <option value="employed">Employed</option>
                                         <option value="self-employed">Self Employed</option>
@@ -227,7 +227,7 @@
                         <div class="form-group">
                                 <label for="education"> Education
                                 <select id="education" aria-required="true">
-                                        <option value="Select one" disabled selected>Select one</option>
+                                        <option value="Select one" disabled selected hidden>Select one</option>
                                         <option value="none">None</option>
                                         <option value="grade-school">Grade School</option>
                                         <option value="high-school">High School</option>
@@ -254,8 +254,8 @@
                         <div class="form-group">
                             <label for="howDidYouAboutUs"> How did you hear about us ? </label><br>
                             <select id="howDidYouAboutUs" aria-required="true">
-                                    <option value="Select one">Select one</option>                                
-                                    <option class="capitalize" value="">Reskill Americans</option>
+                                    <option value="Select one" disabled selected hidden>Select one</option>                                
+                                    <option class="capitalize" value="Reskill americans">Reskill Americans</option>
                                     <option class="capitalize" value="Don Jazzy">Don Jazzy</option>
                                     <option class="capitalize" value="Ogbeni Dipo">Ogbeni Dipo</option>
                                     <option class="capitalize" value="Women Will">Women Will</option>
