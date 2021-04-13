@@ -530,3 +530,14 @@ button{
        
     }
 }
+
+/* End of Form Section */
+
+/* Beginning of Footer Section */
+
+footer{
+    padding:4rem;
+    margin:0 auto;
+    background:#333333;
+    
+}
