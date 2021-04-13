@@ -156,6 +156,7 @@ section.why-zuri h2{
     border-radius:6px;
     font-weight:900;
     width:33%;
+    text-align: center;
 
 }
 
@@ -236,14 +237,42 @@ section.enroll
     width:100%;
     background:red;
     display:block;
-    
+    padding: 1.4rem .5rem;
     margin:0 auto;
 }
 
 .mini-flex{
     display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    justify-content: space-between;
+
 }
 
-.form-control{
+.mini-flex .form-group{
+    width:45%;
     display:block;
+
+}
+
+.form-group{
+     margin-bottom:10px;
+}
+
+.form-group label{
+    color:black;
+    font-size:1rem;
+    line-height:32px;
+   
+}
+.form-group input{
+    display:block;
+    width:100%;
+    height:30px;
+    background:#ccc;
+    outline:none;
+    padding:1.2rem 0.45rem;
+    border:none;
+    border-radius:5px;
+    margin-top:4px;
 }
