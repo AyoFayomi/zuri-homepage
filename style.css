@@ -278,6 +278,31 @@ div.zuri-text h2{
 }
 
 /* End of Why Choose Zuri Section */
+
+/* beginning of Scope Of Pogram section*/
+.scope-of-program{
+    width: 99vw;
+    height: 70vh;
+    display: block;
+    flex-wrap: wrap;
+}
+.sop-head{
+    width: 35%;
+    position: relative;
+    margin: 2em 0;
+}
+.sop-sub{
+    width: 100vw;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+div.sop{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Beginning of Form Sectiion */
 
 section.enroll
