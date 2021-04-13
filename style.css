@@ -42,7 +42,7 @@ section .hero-left img {
 section .hero-right {
     color: #121212;
     width: 50%;
-    padding: 0 2.5rem;
+    padding: 1rem 2.5rem;
     display:flex;
     flex-direction: column;
     align-items:flex-end;
@@ -97,4 +97,29 @@ section .hero-right p {
     font-weight:900;
     margin-right:auto;
     border-radius:5px;
+}
+
+@media  (max-width:768px) {
+    section{
+        display:block;  
+        padding:1.5rem 0.5rem;
+    }
+
+   section .hero-right, section .hero-left{
+        width:100%;
+    }
+
+    section .hero-right {
+        padding:2rem 0.75rem;
+    }
+
+    section .hero-right h2{
+        font-size:1.3rem;
+        line-height:24px;
+    }
+
+    section .hero-right p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
 }
