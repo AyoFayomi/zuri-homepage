@@ -541,3 +541,21 @@ footer{
     background:#333333;
     
 }
+
+section.details{
+    background:transparent;
+    padding:0;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+}
+
+section.credit{
+    background:none;
+}
+
+section.credit h2{
+    color:#fff;
+    text-align: center;
+    font-size:2rem;
+}
