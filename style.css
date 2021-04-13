@@ -231,7 +231,7 @@ section.why-zuri h2{
     padding:1.3rem 3rem;
     border-radius:6px;
     font-weight:900;
-    width:33%;
+    width:31%;
     text-align: center;
 }
 
@@ -466,9 +466,10 @@ font-size:1.8rem;
     color:black;
 }
 
-.form-group select{
-
+span.button-group a{
+    font-size:0.8rem;
 }
+
 span.button-group{
     display:flex;
     justify-content:flex-end;
