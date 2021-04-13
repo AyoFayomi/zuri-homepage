@@ -309,8 +309,7 @@ section.enroll
 
 
 .enroll-right form{
-    width:100%;
-    
+    width:100%;  
     display:block;
     padding: 1.4rem .9rem;
     margin:0 auto;
@@ -377,7 +376,17 @@ button{
         width: 100%;
         padding: 0.5rem;
     }
+
+    .mini-flex .form-group {
+        width: 48%;
+    }
+    .enroll-right form {
+        padding: 0;
+        margin: 0 auto;
+    }
+
     label{
         font-size:0.8rem;
     }
+    
 }
