@@ -176,6 +176,11 @@ section .hero-right p {
         padding:1.5rem 0.5rem;
     }
 
+    section .hero-left img {     
+        width: 300px;
+        height: 300px;     
+    }
+
    section .hero-right, section .hero-left{
         width:100%;
     }
