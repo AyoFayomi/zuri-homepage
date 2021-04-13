@@ -123,3 +123,31 @@ section .hero-right p {
         line-height: 24px;
     }
 }
+
+/* End of Hero Section */
+
+/* Beginning of Why Zuri Section */
+
+section.why-zuri{
+    background:#045293;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+section.why-zuri h2{
+    color:#fff;
+    font-size:1rem;
+    text-align: left !important;
+}
+
+.zuri-special{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    margin:3rem 0;
+}
+
+.icon-text{
+    background:white;
+    padding:2rem 6rem;
+}
