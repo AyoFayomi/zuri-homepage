@@ -223,9 +223,9 @@ section.why-zuri h2{
 .icon-text{
     background:white;
     padding:1.3rem 6rem;
-    flex-basis: 1;
     border-radius:6px;
     font-weight:900;
+    width:33%;
 
 }
 
@@ -256,6 +256,26 @@ div.zuri-text p{
     color:#f3f1f3;
 }
 
+
+@media (max-width:768px) {
+.zuri-special{
+   flex-direction:column;
+}
+
+.icon-text {
+   margin:10px 0;
+    width: 100%;
+    padding:1.3rem 2rem;
+
+}
+div.zuri-text{
+    padding: 0 2rem;
+}
+div.zuri-text h2{
+    width:100%;
+}
+
+}
 
 /* End of Why Choose Zuri Section */
 /* Beginning of Form Sectiion */
@@ -288,6 +308,10 @@ section.enroll
     display:block;
     
     margin:0 auto;
+}
+
+.mini-flex{
+    display:flex;
 }
 
 .form-control{
