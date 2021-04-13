@@ -223,12 +223,11 @@ section.why-zuri h2{
 
 .icon-text{
     background:white;
-    padding:1.3rem 6rem;
+    padding:1.3rem 3rem;
     border-radius:6px;
     font-weight:900;
     width:33%;
     text-align: center;
-
 }
 
 .icon-text .fa, .icon-text .fab{
@@ -306,9 +305,9 @@ section.enroll
 
 .enroll-right form{
     width:100%;
-    background:red;
+    
     display:block;
-    padding: 1.4rem .5rem;
+    padding: 1.4rem .9rem;
     margin:0 auto;
 }
 
@@ -336,14 +335,18 @@ section.enroll
     line-height:32px;
    
 }
-.form-group input{
+.form-group input, .form-group select{
     display:block;
     width:100%;
-    height:30px;
-    background:#ccc;
+    height:35px;
+    background:#f1f1f1;
     outline:none;
     padding:1.2rem 0.45rem;
     border:none;
     border-radius:5px;
     margin-top:4px;
+}
+
+.form-group select{
+appearance:none;
 }

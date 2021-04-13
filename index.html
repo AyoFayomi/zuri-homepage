@@ -106,7 +106,7 @@
                         </div>
                         <div class="form-group">
                                 <label for=""> Gender 
-                                <select>
+                                <select disabled selected>
                                         <option value="">Select a gender</option>
                                         <option value="" >Male </option>
                                         <option value="">Female</option>
@@ -124,7 +124,7 @@
                         <div class="form-group">
                                 <label for=""> Track 
                                 <select>
-                                        <option value="">Select a track</option>
+                                        <option value="" disabled selected hidden>Select a track</option>
                                         <option value="" >Back End </option>
                                         <option value="">Front End</option>
                                         <option value="">Design</option>
@@ -134,13 +134,19 @@
                         </div>
                         <div class="form-group">
                                 <label for=""> Experience Level
-                                <input type="text" required></label>
+                                <select >
+                                        <option value="" disabled selected hidden>Select Experience Level</option>
+                                        <option value="" >Beginner </option>
+                                        <option value="">Junior/option>
+                                        <option value="">Intermediate</option>
+                                        <option value="">Senior</option>
+                                </select>
                         </div>
                         
                         <div class="form-group">
                                 <label for=""> Employement Status
                                 <select>
-                                        <option value="">Select employment status</option>
+                                        <option value="" disabled selected hidden>Select employment status</option>
                                         <option value="unemployed">Unemployed</option>
                                         <option value="employed">Employed</option>
                                         <option value="self-employed">Self Employed</option>
@@ -150,7 +156,7 @@
                         <div class="form-group">
                                 <label for=""> Education
                                 <select>
-                                        <option value="">Select one</option>
+                                        <option value="" disabled selected hidden>Select one</option>
                                         <option value="none">None</option>
                                         <option value="grade-school">Grade School</option>
                                         <option value="high-school">High School</option>
