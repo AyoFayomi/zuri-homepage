@@ -299,6 +299,7 @@ section.enroll
     align-items:center;
     width:100%;
     height:fit-content;
+    padding:0 4rem;
 }
 
 .enroll-left, .enroll-right{
@@ -307,6 +308,25 @@ section.enroll
     padding:1rem;
 }
 
+.enroll-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enroll-left h2{
+text-transform:uppercase;
+color:#121212;
+margin-bottom:4px;
+font-weight:bolder;
+font-size:1.8rem;
+}
+
+.enroll-left h5{
+    color:#058BFF;
+    margin-bottom:20px;
+}
 
 .enroll-right form{
     width:100%;  
@@ -345,31 +365,40 @@ section.enroll
     height:35px;
     background:#f1f1f1;
     outline:none;
-    padding:1.2rem 0.45rem;
+    padding:1.2rem 0.9rem;
     border:none;
     border-radius:5px;
     margin-top:4px;
+    color:black;
 }
 
 .form-group select{
 
 }
+span.button-group{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding-top:20px;
+}
 
 button{
-    padding: 0.8rem 1.4rem;
-    height:40px;
-    width:120px;
+    padding:1rem 2rem;
     background:#058BFF;
     color:#fff;
     outline:none;
     border:none;
-    font: size 0.85rem;
-    font-weight:800;
+    font-size: 0.9rem;
+    font-weight:400;
+    border-radius:5px;
+    margin-left:30px;
+    cursor:pointer;
 }
 
 @media (max-width:768px){
     .container{
         display:block;
+        padding:0;
     }
     .enroll-left,
     .enroll-right {
