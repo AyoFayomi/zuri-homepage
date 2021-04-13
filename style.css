@@ -10,6 +10,12 @@ body {
     font-family: "Montserrat";
 }
 
+a{
+    text-decoration:none;
+    display:block;
+    color:#121212;
+}
+
 section {
     width: 100%;
     height: fit-content;
@@ -37,6 +43,9 @@ section .hero-right {
     color: #121212;
     width: 50%;
     padding: 0 2.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
 }
 
 section .hero-right h2 {
@@ -58,4 +67,34 @@ section .hero-right p {
     letter-spacing: 0.005em;
     text-align: left;
 
+}
+
+#read-more{
+    color:#999;
+}
+
+.hero-right span{
+    padding-right:30px;
+}
+
+.hero-right span h6{
+    font-size:0.85rem;
+}
+
+.hero-right span img{
+    display:block;
+    height:80px;
+    width:150px;
+}
+
+.link-button{
+    text-transform:capitalize;
+    background:#058BFF;
+    text-align:left;
+    padding:0.8rem 1.2rem;
+    color:#fff;
+    font-size:0.8rem;
+    font-weight:900;
+    margin-right:auto;
+    border-radius:5px;
 }
