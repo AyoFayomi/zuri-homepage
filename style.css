@@ -132,6 +132,8 @@ section.why-zuri{
     background:#045293;
     display:flex;
     flex-flow: column nowrap;
+    justify-content:center;
+    align-items:flex-start;
 }
 
 section.why-zuri h2{
@@ -143,11 +145,17 @@ section.why-zuri h2{
 .zuri-special{
     display:flex;
     width:100%;
-    justify-content:space-around;
+    justify-content:space-between;
     margin:3rem 0;
 }
 
 .icon-text{
     background:white;
     padding:2rem 6rem;
+    flex-basis: 1;
+
+}
+
+.icon-text .fa{
+    margin-right:20px;
 }
